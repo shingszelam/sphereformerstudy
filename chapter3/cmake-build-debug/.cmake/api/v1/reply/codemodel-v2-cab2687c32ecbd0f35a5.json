@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arith::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arith-Debug-6893c5460dfeb810db9e.json",
+					"name" : "arith",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assagin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assagin-Debug-5c5ff3e842461fd97db2.json",
+					"name" : "assagin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bondomo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bondomo-Debug-ff371957882a927e0c46.json",
+					"name" : "bondomo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter3-Debug-88e5560dc3be69120e24.json",
+					"name" : "chapter3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chartype::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chartype-Debug-9454d8a4fff9f65f665b.json",
+					"name" : "chartype",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "divide::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-divide-Debug-7123cc7935eadf73d510.json",
+					"name" : "divide",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exceed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exceed-Debug-91e22df8903bcf2266c5.json",
+					"name" : "exceed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floatnum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floatnum-Debug-cabcdf8a75ad54812429.json",
+					"name" : "floatnum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fltadd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fltadd-Debug-21b985300cbfcef1245c.json",
+					"name" : "fltadd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexoct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexoct-Debug-7c4c3dc1887ac24d5147.json",
+					"name" : "hexoct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexoct2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexoct2-Debug-52e04e19e0cd04f07646.json",
+					"name" : "hexoct2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limits-Debug-3ed8c2269a9ca8d2528f.json",
+					"name" : "limits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "modulus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-modulus-Debug-6fd0604d05dde2d5adbe.json",
+					"name" : "modulus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "morechar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-morechar-Debug-92949625d1e4759ca18f.json",
+					"name" : "morechar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "typecast::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-typecast-Debug-d1e8a6f52e14a563d25f.json",
+					"name" : "typecast",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter3/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

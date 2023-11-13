@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.26)
+project(chapter3)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(chapter3 main.cpp)
+add_executable(limits limits.cpp)
+add_executable(exceed exceed.cpp)
+add_executable(hexoct hexoct.cpp)
+add_executable(hexoct2 hexoct2.cpp)
+add_executable(chartype chartype.cpp)
+add_executable(morechar morechar.cpp)
+add_executable(bondomo bondomo.cpp)
+add_executable(floatnum floatnum.cpp)
+add_executable(fltadd fltadd.cpp)
+
+add_executable(arith arith.cpp)
+add_executable(divide divide.cpp)
+add_executable(modulus modulus.cpp)
+add_executable(assagin assagin.cpp)
+add_executable(typecast typecast.cpp)
