@@ -1,0 +1,14 @@
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/chapter4.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/address.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/pointer.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/init_ptr.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/use_new.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/arraynew.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/addpntrs.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/ptrstr.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/newstrct.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/delete.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/choices.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/instr2.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

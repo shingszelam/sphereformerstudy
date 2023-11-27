@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "addpntrs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-addpntrs-Debug-e0a436b2dc5a8ee7a7df.json",
+					"name" : "addpntrs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "address::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-address-Debug-00534a509a3aa1cf1e74.json",
+					"name" : "address",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arraynew::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arraynew-Debug-da0d804be54b6ff63005.json",
+					"name" : "arraynew",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter4-Debug-ae96b3786cf758533aed.json",
+					"name" : "chapter4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "choices::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-choices-Debug-7efdce746936c75b7e0f.json",
+					"name" : "choices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "delete::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-delete-Debug-e592547cf2a9ce34e287.json",
+					"name" : "delete",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "init_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-init_ptr-Debug-423d83a15780ca0e9bbe.json",
+					"name" : "init_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "instr2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-instr2-Debug-91e64d8905a3b6c81136.json",
+					"name" : "instr2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newstrct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newstrct-Debug-91b81eac6dd331a2336f.json",
+					"name" : "newstrct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointer-Debug-8c65aa674b0b129c517e.json",
+					"name" : "pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ptrstr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ptrstr-Debug-626c2f970ece865fe091.json",
+					"name" : "ptrstr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use_new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use_new-Debug-8ff89b99d2148befa2f3.json",
+					"name" : "use_new",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter4/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
