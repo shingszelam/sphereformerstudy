@@ -1,0 +1,3 @@
+"D:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\jump.dir/objects.a
+"D:\CLion 2023.2.2\bin\mingw\bin\ar.exe" qc CMakeFiles\jump.dir/objects.a @CMakeFiles\jump.dir\objects1.rsp
+"D:\CLion 2023.2.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\jump.dir/objects.a -Wl,--no-whole-archive -o jump.exe -Wl,--out-implib,libjump.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\jump.dir\linkLibs.rsp

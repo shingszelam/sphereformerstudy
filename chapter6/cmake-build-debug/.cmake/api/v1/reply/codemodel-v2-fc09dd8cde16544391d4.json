@@ -1,0 +1,191 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "and::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-and-Debug-26dad9fcee3b43436b4c.json",
+					"name" : "and",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cctypes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cctypes-Debug-d3919076cbfd3f7be66a.json",
+					"name" : "cctypes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cinfish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cinfish-Debug-9601b914218592fb81a4.json",
+					"name" : "cinfish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cingolf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cingolf-Debug-dc99c7b38701fe1d12f7.json",
+					"name" : "cingolf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "condit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-condit-Debug-27319c841906b3a45c79.json",
+					"name" : "condit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "enum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-enum-Debug-5c1ca5d5b1494746d9a9.json",
+					"name" : "enum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "if::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-if-Debug-0e89e452ca4eaf23e3f1.json",
+					"name" : "if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ifelse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ifelse-Debug-e8fa699c95cb77dadadf.json",
+					"name" : "ifelse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ifelseif::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ifelseif-Debug-45568c4883742568c7cf.json",
+					"name" : "ifelseif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jump::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jump-Debug-daf166f9c8e5e276db1a.json",
+					"name" : "jump",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "more_and::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-more_and-Debug-1b7df47e4f2062021777.json",
+					"name" : "more_and",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "not::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-not-Debug-79e2f193cec0fa76a40b.json",
+					"name" : "not",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "or::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-or-Debug-1a9f7fe9115cb02f3fba.json",
+					"name" : "or",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "outfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-outfile-Debug-3d20d23b61b013db854b.json",
+					"name" : "outfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sumafile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sumafile-Debug-f28935b2706ec52fa446.json",
+					"name" : "sumafile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch-Debug-eaf55119985924cb0224.json",
+					"name" : "switch",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter6/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

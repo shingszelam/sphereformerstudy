@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chapter6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/if.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 if"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/if.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 if/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifelse">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/ifelse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ifelse"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifelse/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/ifelse.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ifelse/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifelseif">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/ifelseif.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ifelseif"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ifelseif/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/ifelseif.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 ifelseif/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="or">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/or.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 or"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="or/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/or.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 or/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="and">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/and.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 and"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="and/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/and.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 and/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="more_and">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/more_and.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 more_and"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="more_and/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/more_and.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 more_and/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="not">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/not.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 not"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="not/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/not.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 not/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cctypes">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/cctypes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 cctypes"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cctypes/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/cctypes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 cctypes/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condit">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/condit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 condit"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="condit/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/condit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 condit/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="switch">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/switch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 switch"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="switch/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/switch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 switch/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enum">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/enum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 enum"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enum/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/enum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 enum/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jump">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/jump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 jump"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jump/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/jump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 jump/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinfish">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/cinfish.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 cinfish"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinfish/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/cinfish.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 cinfish/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cingolf">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/cingolf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 cingolf"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cingolf/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/cingolf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 cingolf/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="outfile">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/outfile.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 outfile"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="outfile/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/outfile.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 outfile/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sumafile">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/sumafile.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 sumafile"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sumafile/fast">
+				<Option output="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/sumafile.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 sumafile/fast"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/pythonProject/myself/c-study/chapter6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/pythonProject/myself/c-study/chapter6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/and.cpp">
+			<Option target="and"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/cctypes.cpp">
+			<Option target="cctypes"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/cinfish.cpp">
+			<Option target="cinfish"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/cingolf.cpp">
+			<Option target="cingolf"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/condit.cpp">
+			<Option target="condit"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/enum.cpp">
+			<Option target="enum"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/if.cpp">
+			<Option target="if"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/ifelse.cpp">
+			<Option target="ifelse"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/ifelseif.cpp">
+			<Option target="ifelseif"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/jump.cpp">
+			<Option target="jump"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/more_and.cpp">
+			<Option target="more_and"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/not.cpp">
+			<Option target="not"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/or.cpp">
+			<Option target="or"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/outfile.cpp">
+			<Option target="outfile"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/sumafile.cpp">
+			<Option target="sumafile"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/switch.cpp">
+			<Option target="switch"/>
+		</Unit>
+		<Unit filename="D:/pythonProject/myself/c-study/chapter6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

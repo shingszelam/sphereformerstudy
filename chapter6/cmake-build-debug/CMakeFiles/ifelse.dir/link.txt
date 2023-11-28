@@ -1,0 +1,3 @@
+"D:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\ifelse.dir/objects.a
+"D:\CLion 2023.2.2\bin\mingw\bin\ar.exe" qc CMakeFiles\ifelse.dir/objects.a @CMakeFiles\ifelse.dir\objects1.rsp
+"D:\CLion 2023.2.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\ifelse.dir/objects.a -Wl,--no-whole-archive -o ifelse.exe -Wl,--out-implib,libifelse.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ifelse.dir\linkLibs.rsp
