@@ -2,9 +2,9 @@
 ## 1.SparseBasicBlock
 1.得到的voxel_feature和voxel_coords送入稀疏卷积网络得到稀疏tensor    
 batch_dict内容：  
-![Alt text](image/image/image/image-6.png)
+![Alt text](/image/image-6.png)
 2.稀疏tensor送入一个卷积网络中，得到一个x  x的输出通道为16
-  ![Alt text](image/image/image/image-1.png)
+  ![Alt text](/image/image-1.png)
   ![Alt text](image/image-2.png)  
   conv_input 函数如下所示  
 ![Alt text](image/image-3.png)
