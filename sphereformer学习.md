@@ -139,8 +139,99 @@ percompute_all函数:
 offsets 和sq_offsets是通过将connts增加一个零累加以及先平方之后再累加得到的。**索引1，2如何得到的有点费解，是通过一个precompute_all_cuda函数得到的** 再看看。  
 得到了index_0,index_1将其转化成long形并返回。  
 ----------------------第一个索引参数读取完毕了------------------  
+
 --------------------------球形索引参数读取-------------------  
 ![Alt text](image-12.png)
 处理方式和第一个索引参数读取一样，唯一不同的是窗口设置不同，window_size_sphere设置的大小为[3. 3. 120]
 处理后的结果为：
-![Alt text](image-13.png)
+![Alt text](image-13.png)    
+
+----------------------信息存入self.kwags------------------  
+处理之后将其写入字典：
+![Alt text](image-14.png)  
+识别pe_type是否等于"contextual"，并更行参数字典kwargs  
+![Alt text](image-15.png)
+相对位置信息如下所示：  
+![Alt text](image-16.png)    
+
+  
+
+------使用**kwags做稀疏自注意力机制存入Out1---------  
+1.q\k\v按照sort_idx索引来进行排序。  
+![Alt text](image-17.png)  
+2.检索字典并处理。
+![Alt text](image-18.png)
+---windowsize。转成浮点型并存入cuda;---  
+---shift_size=0;  ----  
+---xyz_quant则是通过xyz_ctg-xyz_ctg再第0维度上的最小值然后对window_size取余得到的。  
+计算结果如下：![Alt text](image-19.png)    
+再使用xyez_quat除以quant_size 结如下所示：
+![Alt text](image-20.png)  
+---相对位置计算 使用xyz_quant[index_0]-xyz_quat[index_1]进行计算。最后的输出形状为（M,3）M由索引决定。因为index的维度远远大于xyz_quant[0]维度的，所以一定会有很多索引位置的计算结果为0.  
+![Alt text](image-21.png)
+---相对位置偏移索引等于相对位置+quant_grid_length-1，其中qgl=24,计算结果如下：（因为split_func为none，所以不做if下面语句处理。）
+![Alt text](image-22.png)
+---attn_flat ------  
+----dotprodwithidxall函数如下-----：
+![Alt text](image-23.png)
+qkv与其对应的索引连续，将q的shape赋值给N,h,dim即点数、 、 维度  
+M为index_k的shape，L为talbe_q的shape[0];  
+保证tabel_k.shape[0]=table_q.shape[0],且q.shape[0]=k.shape[0];  
+确保L大于rel_idx.max 小于等于50。  
+使用output存放一个(h,M)==>(1,index_k.shape[0])的零矩阵。  
+q,k重新排序得到q_transpose和k_transpose，形状从（218265，1，16）==>(1,16,218265)  
+table_q和table_k维度也换，(47,3,1,16) == > (1,16,3,47)  
+rel_idx也换 从（8632855，3）==>（3，8632855）  
+将这些数据都使用**dout_prob_with_idx_all_forward_cuda** 函数传递给output,output结果为如下：
+![Alt text](image-24.png)
+进行转置处理。   
+ctx.n_max= n_max = 210
+ctx来保存这些参数为了for_backward。该函数返回一个output到attn_flat。  
+------dotprodwithidxall函数运行结果。---------  
+---attn_flat结束  
+---softmax_attn_flat---  
+[![Alt text](image-26.png)](image-25.png)  
+在索引index_0_offset上对attn_falt进行soft_max计算，计算结果如下所示:
+![Alt text](image-27.png)  
+------------------------------softmax计算结束-----------------------------------  
+-----------------attnstep2--使用相对位置值进行计算----------------------  
+![Alt text](image-28.png)  
+![Alt text](image-29.png)
+也是将output返回给x,x的结果为：  
+![Alt text](image-30.png)  
+-------------------------attnstep2结束-------------------------  
+稀疏自注意力机制运行结果：  
+![Alt text](image-31.png)
+------------------**最终返回的x给out1** --------------------------------
+  
+---------------------out2---球形注意力机制的处理--------------------  
+1.参数传入字典,参数如下所示：注：原来的q\k\v的第二个维度都为1，但是此处使用了 **query[:, self.num_heads_brc1:].contiguous().float(),#query.shape[258355,2,16]** 即论文中所提到的将头分半的动作
+![Alt text](image-33.png)
+中间也是通过一个sparse_self_attention对(**kwags)进行处理，参考out1的部分。输出结果如下所示:  
+![Alt text](image-34.png)  
+----------------out2球形注意力机制处理------------------------  
+
+在通道维度上将out1,out2在通道维度进行concat  
+![Alt text](image-35.png)    
+线性投射和proj_drop
+![Alt text](image-36.png)  
+  
+
+转换成稀疏张量：  
+![Alt text](image-37.png)  
+--------------------------------------------------  结束----  
+sptr_tensor = slef.attn(sptr_tensor)：处理前后  
+![Alt text](image-38.png)  
+![Alt text](image-39.png)
+
+输出特征也是采用的resnet处理方式，short_cut即保存的最初的特征。  
+![Alt text](image-40.png)  
+mlp如下所示：  
+![Alt text](image-41.png)  
+运行结果如下所示：  
+![Alt text](image-42.png)
+
+整个transformer_block大概框架整理如下图所示：  
+![Alt text](~7%7D%60J0KKC9KII6XKG83WRQH_tmb.png)    
+![Alt text](image-43.png)  
+其中比较重要的两个计算使用cuda实现，第一个则是计算索引：**precomputer**，以及在所有索引上并行计算特征函数**dot_prod_with_idx**
