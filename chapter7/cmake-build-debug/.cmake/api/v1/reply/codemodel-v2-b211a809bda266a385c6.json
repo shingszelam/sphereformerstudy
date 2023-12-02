@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arfupt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arfupt-Debug-d07bb3d5de112d6ddbb3.json",
+					"name" : "arfupt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrfun1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrfun1-Debug-dbc19cd7773abd73190f.json",
+					"name" : "arrfun1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrfun2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrfun2-Debug-289f0771efaabd51dffc.json",
+					"name" : "arrfun2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrfun3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrfun3-Debug-f1c41ee6b4442bce5fc2.json",
+					"name" : "arrfun3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrfun4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrfun4-Debug-4495fc3784ea49766d53.json",
+					"name" : "arrfun4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrobj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrobj-Debug-237cc76c20b77fffb57e.json",
+					"name" : "arrobj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter7-Debug-f0c6cb8f46e0c923ca82.json",
+					"name" : "chapter7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fun_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fun_ptr-Debug-ea5f4f3029ee35ec5105.json",
+					"name" : "fun_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lotto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lotto-Debug-fed686651ad3d58c1677.json",
+					"name" : "lotto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "protos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-protos-Debug-fe5d6ef88d2692f2ed15.json",
+					"name" : "protos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "recur::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-recur-Debug-89fc63aab48cf552dd36.json",
+					"name" : "recur",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ruler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ruler-Debug-cb211ce198fff9c6870a.json",
+					"name" : "ruler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strcptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strcptr-Debug-5b55132423b058602ed6.json",
+					"name" : "strcptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strfun::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strfun-Debug-76dc20e0d89d541e04c0.json",
+					"name" : "strfun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strgback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strgback-Debug-bf3a83c2d500f4150793.json",
+					"name" : "strgback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strtfun::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strtfun-Debug-4322a725d9c227c19671.json",
+					"name" : "strtfun",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topfive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topfive-Debug-42bab96101d8533343b1.json",
+					"name" : "topfive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "travel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-travel-Debug-18d09a517b4e5c27e3a2.json",
+					"name" : "travel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twoarg.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twoarg.cpp-Debug-337c34c60dca25be75f8.json",
+					"name" : "twoarg.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter7/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
