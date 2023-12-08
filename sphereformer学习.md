@@ -235,3 +235,82 @@ mlp如下所示：
 ![Alt text](~7%7D%60J0KKC9KII6XKG83WRQH_tmb.png)    
 ![Alt text](image-43.png)  
 其中比较重要的两个计算使用cuda实现，第一个则是计算索引：**precomputer**，以及在所有索引上并行计算特征函数**dot_prod_with_idx**
+
+------使用replace_feature函数将上面得到的feats传递给x_conv2.  
+
+## x_conv3 = slef.conv3(x_conv2)
+conv3整个框架：
+![Alt text](image-44.png)  
+![Alt text](image-45.png)  
+### 0 )sparsesequential
+![Alt text](image-46.png)  
+output_size计算公式如下：高宽减半、通道数*2
+![Alt text](image-47.png) 
+### 1、2)稀疏卷积块 --难点 如何获得索引并关联
+稀疏卷积的前向传播：  
+1.确定--判断输入是一个稀疏卷积张量；输入特征的第一维度不为0；将输入特征值，特征设备以及特征索引，空间形状还有批量大小都传给输入参数。关注此时indices属性中的内容。  
+![Alt text](image-49.png)  
+2.因为self.subm以及transposed皆为零，通过函数ops.get_conv_output_size获得输出空间大小为（11，360，360）  
+3.将输入的张量通过shadow张量复制到output_tensor中。  
+4.输入benchmark是false以及conv1*1都是none，所以直接使用replace_feature将特征传入到output_tensor中，以及传入Out_put_shape属性。  
+5.输入索引字典indice_dict进行复制。algo=slef.algo=native  
+6.idicie_key存在为spconv3，所以对datas使用find_indice_pair,返回一个None值给datas。  
+7.profile_ctx = nullcontext()不知道在干嘛，但是需要使用profile_ctx  
+---使用algo==convalgo.native;再次使用find_indice_pair给datas填充None，然后一系列判断语句只能执行这个： 
+![Alt text](image-50.png)  
+函数如下所示：  
+![Alt text](image-51.png)  
+![Alt text](image-54.png)
+![Alt text](image-55.png)  
+![Alt text](image-56.png)
+![Alt text](image-57.png)
+![Alt text](image-58.png)  
+然后返回out_inds,pair,indice_num_per_loc三个参数。具体情况如下：  
+![Alt text](image-59.png)  
+8.索引数据生成使用indice_data = IndiceData（输入们），具体输入参数：其实就是把这些参数传图到indice_data中去。 
+![Alt text](image-60.png)   
+![Alt text](image-61.png)  
+![Alt text](image-62.png)
+9.输出特征：  
+（1）首先将数据备份  
+![Alt text](image-63.png)  
+（2）通过ops.indicie_conv对输入进行处理
+![Alt text](image-64.png)  
+![Alt text](image-65.png)  
+![Alt text](image-66.png)  
+![Alt text](image-67.png)
+![Alt text](image-68.png)
+![Alt text](image-69.png)  
+![Alt text](image-70.png) 
+返回的是Out_features.  
+（3）profile_idx = kv_center 就是kv值除2。  
+nhot_profile = indice_pair_num_cpu[profile_idx] 取索引等于13即第十四个数传给它。  
+![Alt text](image-71.png)
+（4）gemm.get_tuned_algo（）函数tuned_res为NONE   
+![Alt text](image-72.png)  
+![Alt text](image-73.png)
+（5）run profile on center  
+------------------------一堆底层的东西-------------  
+ x_conv3 = self.conv3(x_conv2) 得到的结果基本上都减半了：  
+ ![Alt text](image-74.png)  
+ 然后将spconv3加入索引字典中，进行下采样操作。和之前的都同理。  
+ 运行transformer_block:  
+ 也是和之前一样通过索引来分别进行上下两个头的操作，最后在通道维度上进行相加。  
+ 特征填充：x_conv3 = x_conv3.replace_feature(feats)
+  
+  ----------------x_conv4-----------------------  
+  x_conv4 = self.conv4(x_conv3)  
+  conv4网络如下所示：  
+![Alt text](image-75.png)  
+运行结果对比如下所示：  
+![Alt text](image-76.png)  
+out = self.conv_out(x_conv4)  
+conv_out网络如下所示:  
+![Alt text](image-77.png)  
+运行结果：  
+![Alt text](image-78.png)  
+  
+构建batch_dict传送到centerpoint网络中去进行目标检测的任务：  
+![Alt text](image-79.png)  
+
+ 

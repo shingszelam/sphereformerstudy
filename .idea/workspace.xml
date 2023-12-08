@@ -6,7 +6,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10164efb-6198-42c0-85e8-310a1ee480f9" name="Changes" comment="" />
+    <list default="true" id="10164efb-6198-42c0-85e8-310a1ee480f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter7/ch7hw/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7/ch7hw/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7/ch7hw/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sphereformer学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/sphereformer学习.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +57,7 @@
       <updated>1701092679125</updated>
       <workItem from="1701092684421" duration="31000" />
       <workItem from="1701133392190" duration="28000" />
+      <workItem from="1701825017206" duration="5000" />
     </task>
     <servers />
   </component>
