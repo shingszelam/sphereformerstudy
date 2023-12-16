@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter9",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "YourProjectName::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-YourProjectName-Debug-b218b9cf4c9b9b880832.json",
+					"name" : "YourProjectName",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoscp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoscp-Debug-5708a9face6d32bfa2c4.json",
+					"name" : "autoscp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter9-Debug-470c836447eec2a30159.json",
+					"name" : "chapter9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "namesp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-namesp-Debug-3577457ccfdb01683df0.json",
+					"name" : "namesp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newplace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newplace-Debug-3cc6da401b2ba5602f27.json",
+					"name" : "newplace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project2-Debug-0fcc970bf2908fea5162.json",
+					"name" : "project2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static-Debug-0fdaa33d3fc799881223.json",
+					"name" : "static",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter9/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter9"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

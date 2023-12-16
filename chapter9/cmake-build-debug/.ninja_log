@@ -1,0 +1,19 @@
+# ninja log v5
+1	751	7242222141201827	CMakeFiles/chapter9.dir/file.cpp.obj	1ccb1a5cfeaec766
+7	760	7242222141291566	CMakeFiles/chapter9.dir/file2.cpp.obj	420592704bfa9e24
+760	967	7242222143336089	chapter9.exe	f9190ef4b074d29f
+1	591	7242240770269767	CMakeFiles/autoscp.dir/autoscp.cpp.obj	7288e991db351b0f
+4	802	7244001756549079	CMakeFiles/YourProjectName.dir/external.cpp.obj	968aece4864de785
+591	766	7242240772001830	autoscp.exe	9a82199c523dd583
+0	806	7244001756579017	CMakeFiles/YourProjectName.dir/support.cpp.obj	79c8e7aae8da38f9
+806	1011	7244001758606714	YourProjectName.exe	ee6b86651d64baa1
+16	1457	7244111583809265	CMakeFiles/project2.dir/topfile.cpp.obj	51b49f7aedb949a8
+2	1464	7244111583899019	CMakeFiles/project2.dir/topfile2.cpp.obj	70fadb8c8a3bc294
+797	953	7244123250491197	static.exe	40ec741008b1c7db
+1465	1836	7244111587596829	project2.exe	187976b32b849142
+1	797	7244123248973477	CMakeFiles/static.dir/static.cpp.obj	bb80ab34c0b613ee
+3	375	7244160173023267	CMakeFiles/newplace.dir/newplace.cpp.obj	abb8d00d2a81f3c6
+375	468	7244160173920873	newplace.exe	ff7c1645acc06920
+0	686	7244219349253861	CMakeFiles/namesp.dir/namesp.cpp.obj	fb67e97f0a833947
+4	800	7244219350400798	CMakeFiles/namesp.dir/usenamesp.cpp.obj	8d4908995c0cfe53
+801	983	7244219352205997	namesp.exe	2f5fc7de1918642a

@@ -1,0 +1,8 @@
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/ch8hw.dir
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/2.dir
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/3.dir
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/4.dir
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/5.dir
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/6.dir
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter8/ch8hw/cmake-build-debug/CMakeFiles/rebuild_cache.dir

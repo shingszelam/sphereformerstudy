@@ -1,0 +1,9 @@
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/chapter9.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/autoscp.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/YourProjectName.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/project2.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/static.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/newplace.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/namesp.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter9/cmake-build-debug/CMakeFiles/rebuild_cache.dir

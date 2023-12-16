@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.26)
+project(chapter8)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(chapter8
+        inline.cpp)
+add_executable(firstref firstref.cpp)
+add_executable(sceref sceref.cpp)
+add_executable(swaps swaps.cpp)
+add_executable(cubes cubes.cpp)
+add_executable(strc_ref strc_ref.cpp)
+add_executable(strquote strquote.cpp)
+add_executable(filefunc filefunc.cpp)
+add_executable(left left.cpp)
+add_executable(leftover leftover.cpp)
+add_executable(funtemp funtemp.cpp)
+add_executable(twotemps twotemps.cpp)
+add_executable(twoswap twoswap.cpp)
+add_executable(tempover tempover.cpp)
+add_executable(choice choice.cpp)

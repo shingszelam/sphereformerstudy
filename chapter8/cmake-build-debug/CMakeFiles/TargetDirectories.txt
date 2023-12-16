@@ -1,0 +1,17 @@
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/chapter8.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/firstref.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/sceref.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/swaps.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/cubes.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/strc_ref.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/strquote.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/filefunc.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/left.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/leftover.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/funtemp.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/twotemps.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/twoswap.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/tempover.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/choice.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

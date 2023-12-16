@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter8",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter8-Debug-dcb6be707b33abbe2d34.json",
+					"name" : "chapter8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "choice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-choice-Debug-7b9cf979ef4b5507a14d.json",
+					"name" : "choice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cubes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cubes-Debug-9fd796d6fc01b31403a3.json",
+					"name" : "cubes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filefunc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filefunc-Debug-b5b0899258984712414c.json",
+					"name" : "filefunc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firstref::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firstref-Debug-cbcb816ccddac0e27c3d.json",
+					"name" : "firstref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "funtemp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-funtemp-Debug-04bb86f90e9d5bb7d06e.json",
+					"name" : "funtemp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "left::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-left-Debug-9ce1b7cd83eddb90692e.json",
+					"name" : "left",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leftover::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leftover-Debug-9ae414b939b0339957f1.json",
+					"name" : "leftover",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sceref::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sceref-Debug-6b7dc429f33d291e611b.json",
+					"name" : "sceref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strc_ref::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strc_ref-Debug-111f0ffccbea7bffe823.json",
+					"name" : "strc_ref",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strquote::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strquote-Debug-831d2d4ef2705d30ce50.json",
+					"name" : "strquote",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swaps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swaps-Debug-74b3d7e59bb026235fec.json",
+					"name" : "swaps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tempover::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tempover-Debug-f988ccdd8dd53a6ec35b.json",
+					"name" : "tempover",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twoswap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twoswap-Debug-e336ac0ca37b6ae6d20a.json",
+					"name" : "twoswap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twotemps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twotemps-Debug-d93ed565c71f5fe946e7.json",
+					"name" : "twotemps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter8/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter8"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
