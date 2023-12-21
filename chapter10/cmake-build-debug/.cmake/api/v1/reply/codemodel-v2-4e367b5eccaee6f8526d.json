@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter10",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter10-Debug-dbbcaedb0ee9e37e8789.json",
+					"name" : "chapter10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stacker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stacker-Debug-3d3569e5f69e2dedf450.json",
+					"name" : "stacker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usestock1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usestock1-Debug-4543e91a9f780964ef45.json",
+					"name" : "usestock1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usestock2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usestock2-Debug-854b8d292d05215845ec.json",
+					"name" : "usestock2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter10/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter10"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

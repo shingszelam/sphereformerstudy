@@ -1,0 +1,13 @@
+# ninja log v5
+3	504	7245735146383985	CMakeFiles/chapter10.dir/usestock0.cpp.obj	4ab31fdf1c4af224
+5	451	7245747231070256	CMakeFiles/chapter10.dir/stock00.cpp.obj	bd93d8680949130c
+451	567	7245747232167342	chapter10.exe	7688ad314f79f
+473	590	7245863847567660	usestock1.exe	4beaae4c135903c7
+8	931	7245863144831991	CMakeFiles/usestock1.dir/usestock1.cpp.obj	3228775d91875aed
+1	838	7245901984144535	CMakeFiles/usestock2.dir/usestock2.cpp.obj	be7d0dadf6e8b307
+3	473	7245863846470614	CMakeFiles/usestock1.dir/stock10.cpp.obj	49b60585675904d2
+6	836	7245901984124586	CMakeFiles/usestock2.dir/stock20.cpp.obj	ad3f072d029580c
+838	998	7245901985723495	usestock2.exe	98e33c5a9ea807e4
+1	370	7245928482540735	CMakeFiles/stacker.dir/stack.cpp.obj	926a9b0cca14b95f
+5	831	7245928487168362	CMakeFiles/stacker.dir/stacker.cpp.obj	932e156978577589
+831	1017	7245928488963578	stacker.exe	a2228640b814aa26

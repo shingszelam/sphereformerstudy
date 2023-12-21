@@ -63,8 +63,15 @@ void Stock::update(double price)
 
 void Stock::show()
 {
+    using std::cout;
+    using std::ios_base;
+    ios_base::fmtflags orig = cout.setf(ios_base::fixed, ios_base::floatfield);//不使用科学计数法 而是使用小数表示
+    std::streamsize  prec = cout.precision(3); //显示三位小数
     std::cout << "Company: " << company
     << "Shares: " << shares << std::endl
-    << "Shares price: $"  << share_val
-    << "Total Worth: $" << total_val << '\n';
+    << "Shares price: $"  << share_val;
+    cout.precision(2);
+    cout << " Total Worth: $" << total_val << '\n';
+    cout.setf(orig, ios_base::floatfield);
+    cout .precision(prec);
 }

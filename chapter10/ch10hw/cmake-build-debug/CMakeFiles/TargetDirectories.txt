@@ -1,0 +1,10 @@
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use1.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use2.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use3.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use4.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use5.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use6.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use7.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/use8.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter10/ch10hw/cmake-build-debug/CMakeFiles/rebuild_cache.dir

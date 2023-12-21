@@ -1,0 +1,6 @@
+D:/pythonProject/myself/c-study/chapter9/ch9hw/cmake-build-debug/CMakeFiles/ch9hw.dir
+D:/pythonProject/myself/c-study/chapter9/ch9hw/cmake-build-debug/CMakeFiles/2.dir
+D:/pythonProject/myself/c-study/chapter9/ch9hw/cmake-build-debug/CMakeFiles/3.dir
+D:/pythonProject/myself/c-study/chapter9/ch9hw/cmake-build-debug/CMakeFiles/namesp.dir
+D:/pythonProject/myself/c-study/chapter9/ch9hw/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter9/ch9hw/cmake-build-debug/CMakeFiles/rebuild_cache.dir

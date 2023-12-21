@@ -1,0 +1,6 @@
+D:/pythonProject/myself/c-study/chapter10/cmake-build-debug/CMakeFiles/chapter10.dir
+D:/pythonProject/myself/c-study/chapter10/cmake-build-debug/CMakeFiles/usestock1.dir
+D:/pythonProject/myself/c-study/chapter10/cmake-build-debug/CMakeFiles/usestock2.dir
+D:/pythonProject/myself/c-study/chapter10/cmake-build-debug/CMakeFiles/stacker.dir
+D:/pythonProject/myself/c-study/chapter10/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
