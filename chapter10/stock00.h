@@ -1,0 +1,8 @@
+//
+// Created by 77469 on 2023/12/18.
+//
+
+#ifndef CHAPTER10_STOCK00_H
+#define CHAPTER10_STOCK00_H
+
+#endif //CHAPTER10_STOCK00_H
