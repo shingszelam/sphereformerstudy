@@ -1,0 +1,8 @@
+//
+// Created by 77469 on 2024/1/21.
+//
+
+#ifndef CHAPTER12_STRING2_H
+#define CHAPTER12_STRING2_H
+
+#endif //CHAPTER12_STRING2_H

@@ -1,0 +1,8 @@
+//
+// Created by 77469 on 2024/1/18.
+//
+
+#ifndef CHAPTER12_STRNGBAD_H
+#define CHAPTER12_STRNGBAD_H
+
+#endif //CHAPTER12_STRNGBAD_H
