@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ch11hw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ch11hw::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ch11hw-Debug-2e210f4425226ccc953f.json",
+					"name" : "ch11hw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use2-Debug-6c9399b21dc1f131152f.json",
+					"name" : "use2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use3-Debug-bdd117b0c38938b6b1cf.json",
+					"name" : "use3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use4-Debug-c02aed4c0a5de2e63682.json",
+					"name" : "use4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use5-Debug-6fb18babec43f07d4b2f.json",
+					"name" : "use5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use6-Debug-09ee1c0220beb546ba86.json",
+					"name" : "use6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use7-Debug-c6b70ebd1d9ecb7e6f2e.json",
+					"name" : "use7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter11/ch11hw/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter11/ch11hw"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

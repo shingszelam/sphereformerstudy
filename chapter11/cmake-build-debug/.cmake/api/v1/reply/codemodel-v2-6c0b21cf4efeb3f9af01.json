@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter11",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter11-Debug-6b1841fde552275f83f0.json",
+					"name" : "chapter11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "randwalk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-randwalk-Debug-0b19d5098eaeab69ce5f.json",
+					"name" : "randwalk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stone-Debug-87268f35148ee0ebcfe2.json",
+					"name" : "stone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stone1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stone1-Debug-d9d86db75c31f5499081.json",
+					"name" : "stone1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usetime1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usetime1-Debug-efec07f39cda417c74aa.json",
+					"name" : "usetime1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usetime2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usetime2-Debug-2affd6421445dccd60f2.json",
+					"name" : "usetime2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usetime3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usetime3-Debug-d7ebdd8789f61e0486aa.json",
+					"name" : "usetime3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter11/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter11"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

@@ -1,0 +1,192 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "ch12hw",
+					"jsonFile" : "directory-ch12hw-Debug-4c1ab3e956f838ba328a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ch12hw",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter12",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "chapter12hw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bank::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bank-Debug-7e8f080ac5547adbb2d5.json",
+					"name" : "bank",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter12-Debug-fef027a17e0d7a7912b7.json",
+					"name" : "chapter12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newplace2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newplace2-Debug-009e4918ef9bc2c0b7e2.json",
+					"name" : "newplace2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "placenew1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-placenew1-Debug-b2a6cf2c03e24613da39.json",
+					"name" : "placenew1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sayings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sayings-Debug-74be803e3e54015333ba.json",
+					"name" : "sayings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sayings2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sayings2-Debug-ff0913e6025e4a896238.json",
+					"name" : "sayings2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "use1::@e8f573d91458dacd18c8",
+					"jsonFile" : "target-use1-Debug-69127a9680af6adcb803.json",
+					"name" : "use1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "use2::@e8f573d91458dacd18c8",
+					"jsonFile" : "target-use2-Debug-85771c3aa3c775d2b622.json",
+					"name" : "use2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "use3::@e8f573d91458dacd18c8",
+					"jsonFile" : "target-use3-Debug-b2a474ae333b9253782c.json",
+					"name" : "use3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "use4::@e8f573d91458dacd18c8",
+					"jsonFile" : "target-use4-Debug-0b1e3fe6143692c7bced.json",
+					"name" : "use4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "use5::@e8f573d91458dacd18c8",
+					"jsonFile" : "target-use5-Debug-019b5e6e638e8d241f0c.json",
+					"name" : "use5",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "use6::@e8f573d91458dacd18c8",
+					"jsonFile" : "target-use6-Debug-589eedd7e45951247b5a.json",
+					"name" : "use6",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter12/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter12"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

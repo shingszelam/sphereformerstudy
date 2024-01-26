@@ -1,0 +1,26 @@
+# ninja log v5
+5	595	7258977112703655	CMakeFiles/chapter11.dir/usetime0.cpp.obj	1fc6b9cda5ea4fa4
+1	602	7258977112773474	CMakeFiles/chapter11.dir/mytime0.cpp.obj	f47247102189850d
+3	352	7259010673694904	CMakeFiles/usetime2.dir/mytime2.cpp.obj	6b4fdd9ab6c10ae3
+602	789	7258977114620251	chapter11.exe	6eebf318cb150f8e
+569	736	7258991523018178	usetime1.exe	a243cd1a1dd3fdf3
+1	567	7258991521372581	CMakeFiles/usetime1.dir/usetime1.cpp.obj	99b18885b6d2cb66
+6	569	7258991521382548	CMakeFiles/usetime1.dir/mytime1.cpp.obj	d30491bea6e1e0c6
+7	400	7259010316750230	CMakeFiles/usetime2.dir/usetime2.cpp.obj	7df3d714deb6cea8
+353	445	7259010674579526	usetime2.exe	60c78e17d298bd24
+1	449	7259040813783115	CMakeFiles/usetime3.dir/mytime3.cpp.obj	65ad0dce1ebe81f4
+6	461	7259040813912767	CMakeFiles/usetime3.dir/usetime3.cpp.obj	5cb70b679559f904
+461	595	7259040815209302	usetime3.exe	b2fdf6e2ae3efc29
+1	1174	7259691519711760	CMakeFiles/randwalk.dir/vect.cpp.obj	74f6dd1e8baed583
+7	1176	7259691519711760	CMakeFiles/randwalk.dir/randwalk.cpp.obj	e320e0dcdd573ac4
+1176	1652	7259691524552680	randwalk.exe	c7d537a612ed95f
+7	658	7259750910777866	CMakeFiles/stone.dir/stonewt.cpp.obj	b8e2ecbb17589f42
+3	413	7259752377190225	CMakeFiles/stone.dir/stone.cpp.obj	f1edeba40a2042a4
+413	514	7259752378157647	stone.exe	f944a6e6f6ce06d6
+1	440	7259849809091145	CMakeFiles/stone1.dir/stone1.cpp.obj	bea80e95b11c348b
+5	442	7259849809111076	CMakeFiles/stone1.dir/stonewt1.cpp.obj	904ab5b49ad81ca3
+443	584	7259849810497379	stone1.exe	323ff82f8f96421e
+2	381	7263881662442245	CMakeFiles/stone1.dir/stone1.cpp.obj	bea80e95b11c348b
+382	488	7263881663479451	stone1.exe	323ff82f8f96421e
+2	462	7263881763184997	CMakeFiles/randwalk.dir/randwalk.cpp.obj	e320e0dcdd573ac4
+463	602	7263881764531400	randwalk.exe	c7d537a612ed95f

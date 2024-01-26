@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter13",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "usebrass1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usebrass1-Debug-bba2879a4ff45de813ca.json",
+					"name" : "usebrass1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usebrass2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usebrass2-Debug-795138258a696d2710bb.json",
+					"name" : "usebrass2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usebrass3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usebrass3-Debug-68b22f6882194120c230.json",
+					"name" : "usebrass3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usett0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usett0-Debug-570204d75daa8e199e7f.json",
+					"name" : "usett0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usett1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usett1-Debug-13626d0f84e7916d1630.json",
+					"name" : "usett1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter13/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter13"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

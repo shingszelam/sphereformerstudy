@@ -1,0 +1,16 @@
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/chapter12.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/sayings.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/sayings2.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/placenew1.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/newplace2.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/bank.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/use1.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/use2.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/use3.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/use4.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/use5.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/use6.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/edit_cache.dir
+D:/pythonProject/myself/c-study/chapter12/cmake-build-debug/ch12hw/CMakeFiles/rebuild_cache.dir
