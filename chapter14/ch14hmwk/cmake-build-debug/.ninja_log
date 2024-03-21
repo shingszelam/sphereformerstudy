@@ -1,0 +1,13 @@
+# ninja log v5
+5	862	7318620950000152	CMakeFiles/ch14hmwk.dir/usewine.cpp.obj	4d54643d7a3a478
+3	487	7318626044073254	CMakeFiles/ch14hmwk.dir/test1wine.cpp.obj	1fa4ebdcbdfedb97
+487	620	7318626045349838	ch14hmwk.exe	d038ec693f1f2728
+3	606	7319145591168775	CMakeFiles/usewine2.dir/usewine.cpp.obj	a410e2f18421ad6e
+606	782	7319145592881973	usewine2.exe	2e8611367a535bc6
+2	2861	7319145303457988	CMakeFiles/usewine2.dir/test2.cpp.obj	6be87f4120b7222a
+3	1374	7319531716343479	CMakeFiles/use4.dir/useperson.cpp.obj	c2c1c5c8c7417a65
+11	1384	7319531716473159	CMakeFiles/use4.dir/Person.cpp.obj	6262b20966bb7e3a
+8	4492	7319532933677084	CMakeFiles/use4.dir/Person.cpp.obj	6262b20966bb7e3a
+17	1924	7319533981980985	CMakeFiles/use4.dir/Person.cpp.obj	6262b20966bb7e3a
+13	3235	7319534104447825	CMakeFiles/use4.dir/useperson.cpp.obj	c2c1c5c8c7417a65
+3236	3737	7319534109496479	use4.exe	d7a4c0c412dfa1f7

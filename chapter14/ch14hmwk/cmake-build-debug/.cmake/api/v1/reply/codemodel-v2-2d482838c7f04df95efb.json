@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ch14hmwk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ch14hmwk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ch14hmwk-Debug-46d4d3e8d79e5532af56.json",
+					"name" : "ch14hmwk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use3-Debug-9a3dbb550bdd92d615e5.json",
+					"name" : "use3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "use4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-use4-Debug-026592ac358d56bcc222.json",
+					"name" : "use4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usewine2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usewine2-Debug-8b3fa6168c0f3861666b.json",
+					"name" : "usewine2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/pythonProject/myself/c-study/chapter14/ch14hmwk/cmake-build-debug",
+		"source" : "D:/pythonProject/myself/c-study/chapter14/ch14hmwk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

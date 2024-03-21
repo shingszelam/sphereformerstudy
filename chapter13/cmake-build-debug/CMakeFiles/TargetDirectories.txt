@@ -3,5 +3,6 @@ D:/pythonProject/myself/c-study/chapter13/cmake-build-debug/CMakeFiles/usett1.di
 D:/pythonProject/myself/c-study/chapter13/cmake-build-debug/CMakeFiles/usebrass1.dir
 D:/pythonProject/myself/c-study/chapter13/cmake-build-debug/CMakeFiles/usebrass2.dir
 D:/pythonProject/myself/c-study/chapter13/cmake-build-debug/CMakeFiles/usebrass3.dir
+D:/pythonProject/myself/c-study/chapter13/cmake-build-debug/CMakeFiles/usedma.dir
 D:/pythonProject/myself/c-study/chapter13/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/pythonProject/myself/c-study/chapter13/cmake-build-debug/CMakeFiles/rebuild_cache.dir

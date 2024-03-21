@@ -235,6 +235,45 @@ build usebrass3.exe: CXX_EXECUTABLE_LINKER__usebrass3_Debug CMakeFiles/usebrass3
   TARGET_IMPLIB = libusebrass3.dll.a
   TARGET_PDB = usebrass3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target usedma
+
+
+#############################################
+# Order-only phony target for usedma
+
+build cmake_object_order_depends_target_usedma: phony || CMakeFiles/usedma.dir
+
+build CMakeFiles/usedma.dir/usedma.cpp.obj: CXX_COMPILER__usedma_unscanned_Debug D$:/pythonProject/myself/c-study/chapter13/usedma.cpp || cmake_object_order_depends_target_usedma
+  DEP_FILE = CMakeFiles\usedma.dir\usedma.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\usedma.dir
+  OBJECT_FILE_DIR = CMakeFiles\usedma.dir
+
+build CMakeFiles/usedma.dir/dma.cpp.obj: CXX_COMPILER__usedma_unscanned_Debug D$:/pythonProject/myself/c-study/chapter13/dma.cpp || cmake_object_order_depends_target_usedma
+  DEP_FILE = CMakeFiles\usedma.dir\dma.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\usedma.dir
+  OBJECT_FILE_DIR = CMakeFiles\usedma.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target usedma
+
+
+#############################################
+# Link the executable usedma.exe
+
+build usedma.exe: CXX_EXECUTABLE_LINKER__usedma_Debug CMakeFiles/usedma.dir/usedma.cpp.obj CMakeFiles/usedma.dir/dma.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\usedma.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = usedma.exe
+  TARGET_IMPLIB = libusedma.dll.a
+  TARGET_PDB = usedma.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -267,6 +306,8 @@ build usebrass2: phony usebrass2.exe
 
 build usebrass3: phony usebrass3.exe
 
+build usedma: phony usedma.exe
+
 build usett0: phony usett0.exe
 
 build usett1: phony usett1.exe
@@ -279,7 +320,7 @@ build usett1: phony usett1.exe
 #############################################
 # Folder: D:/pythonProject/myself/c-study/chapter13/cmake-build-debug
 
-build all: phony usett0.exe usett1.exe usebrass1.exe usebrass2.exe usebrass3.exe
+build all: phony usett0.exe usett1.exe usebrass1.exe usebrass2.exe usebrass3.exe usedma.exe
 
 # =============================================================================
 # Built-in targets
